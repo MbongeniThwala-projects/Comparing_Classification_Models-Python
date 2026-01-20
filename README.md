@@ -2,57 +2,60 @@
 This project implements a comprehensive comparison of 14 different machine learning classifiers on a synthetic binary classification dataset. The goal is to evaluate and visualise the performance of various classification algorithms to identify the most effective model for a given task.
 
 🎯 Key Objectives
-Generate a synthetic binary classification dataset
+-Generate a synthetic binary classification dataset
 
-Train and evaluate 14 different classification models
+-Train and evaluate 14 different classification models
 
-Compare model performance using accuracy metrics
+-Compare model performance using accuracy metrics
 
-Visualize results through both tabular and graphical representations
+-Visualize results through both tabular and graphical representations
+
 
 📈 Dataset Details
-Type: Synthetic binary classification dataset
+-Type: Synthetic binary classification dataset
 
-Samples: 1,000
+-Samples: 1,000
 
-Features: 5
+-Features: 5
 
-Classes: 2
+-Classes: 2
 
-Redundancy: 0
+-Redundancy: 0
 
-Split: 80/20 train-test ratio
+-Split: 80/20 train-test ratio
+
 
 🤖 Models Evaluated
 The project compares the following 14 classifiers:
 
-Nearest_Neighbors (KNeighborsClassifier)
+-Nearest_Neighbors (KNeighborsClassifier)
 
-Linear_SVM (SVC with linear kernel)
+-Linear_SVM (SVC with linear kernel)
 
-Polynomial_SVM (SVC with poly kernel)
+-Polynomial_SVM (SVC with poly kernel)
 
-RBF_SVM (SVC with RBF kernel)
+-RBF_SVM (SVC with RBF kernel)
 
-Gaussian_Process (GaussianProcessClassifier)
+-Gaussian_Process (GaussianProcessClassifier)
 
-Gradient_Boosting (GradientBoostingClassifier)
+-Gradient_Boosting (GradientBoostingClassifier)
 
-Decision_Tree (DecisionTreeClassifier)
+-Decision_Tree (DecisionTreeClassifier)
 
-Extra_Trees (ExtraTreesClassifier)
+-Extra_Trees (ExtraTreesClassifier)
 
-Random_Forest (RandomForestClassifier)
+-Random_Forest (RandomForestClassifier)
 
-Neural_Net (MLPClassifier)
+-Neural_Net (MLPClassifier)
 
-AdaBoost (AdaBoostClassifier)
+-AdaBoost (AdaBoostClassifier)
 
-Naive_Bayes (GaussianNB)
+-Naive_Bayes (GaussianNB)
 
-QDA (QuadraticDiscriminantAnalysis)
+-QDA (QuadraticDiscriminantAnalysis)
 
-SGD (SGDClassifier)
+-SGD (SGDClassifier)
+
 
 📊 Performance Results
 Models are evaluated based on test set accuracy scores ranging from 0.79 to 0.85:
