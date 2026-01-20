@@ -61,14 +61,23 @@ The project compares the following 14 classifiers:
 Models are evaluated based on test set accuracy scores ranging from 0.79 to 0.85:
 
 Model	Accuracy Score
+
 Naive_Bayes	0.850
+
 Polynomial_SVM	0.840
+
 Neural_Net	0.840
+
 Multiple models	0.835
+
 Random_Forest	0.825
+
 AdaBoost	0.830
+
 Gradient_Boosting	0.790
+
 Extra_Trees	0.790
+
 Best Performing Model: Naive_Bayes with 85% accuracy
 
 📊 Visualization Features
